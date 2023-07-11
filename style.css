@@ -9,7 +9,7 @@ body {
     background: #060607;
 }
 header {
-    background: url(img/inicial.jpg) center no-repeat;
+    background: url(./img/inicial.jpg) center no-repeat;
     height: 400px;
     width: 100%;
 }
