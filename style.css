@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #060607;
+}
+header {
+    background: url(/img/inicial.jpg) center no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.header {
+    position: relative;
+  	text-align: center;
+    color: white;
+	display: inline-block;
+	padding: 20px;
+    font-size: 2rem;
+	border-radius: 5px;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    font-family: 'Bebas Neue', sans-serif;
+}
+.header h1{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.568);
+    
+}
+.header p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+}
+nav {
+    width: 100%;
+    height: 70px;
+    text-align: right;
+}
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 15px;
+    background:#ffb320 ;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.nav a:hover{
+    background: white;
+    color: #ffb320;
+    font-weight: bold;
+}
+.main {
+    text-align: justify;
+    margin: 2% 50px;
+    overflow-y: auto;
+}
+.main h3 {
+    color: #ffb320 ;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+}
+.main p {
+    color: white;
+}
+.main img {
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    float: left;
+}
+.main span {
+    color: #ffb320;
+}
+
+
+footer {
+    background: #ffb320 ;
+    color: white;
+    height: 100px;
+    text-align: center;
+}
+footer p {
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+    margin-bottom: 15px;
+}
+footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #060607;
+    font-weight: bold;
+
+}
+footer a:hover {
+    background: #060607;
+    color: #ffb320;
+    border-radius: 10px;
+}
+
+/*------------------
+  Pedir page
+---------------------*/
+.pedirMain {
+    display: flex;
+	flex-direction:row;
+	align-items:flex-start;
+	text-align: center;
+
+}
+.pedirForm1 {
+    display: inline-block;
+	margin: auto;
+}
+.pedirMain h1 {
+    color: #ffb320;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.checkbox {
+    padding: 10px;
+    display: flex;
+}
+.checkbox label {
+    color: white;
+    padding: 5px;
+    
+}
+.obs{
+	position: relative;
+	width: 250px;	
+}
+.obs input {
+	width: 100%;
+    height: 50px;
+	padding: 10px;
+	border: 1px solid rgba(255,255,255,0.25);
+	background: #060607;
+	border-radius: 5px;
+	outline: none;
+	color: #fff;
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+.obs span {
+	color:  rgba(255,255,255,0.25);
+	padding: 10px;
+	pointer-events: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+button {
+    color: white;
+    background: #ffb320;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin: 50px;
+    border: none;
+}
+button:hover {
+    background: #060607;
+    color: #ffb320;
+    font-weight: bold;
+}
+/*------------------
+  Contato page
+---------------------*/
+.contato {
+    
+}
+.boxContato {
+    align-items: center;
+    
+}
+.contato p {
+    color: white;
+    padding: 4px;
+    margin: 0px 20px;
+        
+}
+.contato span{
+    color: #ffb320;
+}
+.boxContato img {
+    width: 20px;
+    float: left;
+}
+
+.map {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
